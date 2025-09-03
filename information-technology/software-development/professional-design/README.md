@@ -7,8 +7,7 @@ Esta pasta contém os projetos e relatórios desenvolvidos para a disciplina de 
 Abaixo estão os trabalhos desenvolvidos como parte das experiências práticas da disciplina.
 
 ### 1. Experiência Prática I: Construção de Marca Pessoal e Portfólio
-- **Descrição:** Esta atividade focou na criação e otimização dos perfis profissionais no LinkedIn e GitHub, estabelecendo uma marca pessoal consistente e um portfólio técnico inicial com o projeto "Central de Audiolivros".
-- **Entregável:** O perfil atualizado e a postagem no LinkedIn podem ser acessados diretamente pela plataforma.
+- **Descrição:** Esta atividade focou na criação e otimização dos perfis profissionais no [LinkedIn](https://www.linkedin.com/in/willianedu/) e [GitHub](https://github.com/willianedu), estabelecendo uma marca pessoal consistente e um portfólio técnico inicial com o projeto "[Central de Audiolivros](https://github.com/willianedu/CentralAudiolivros)".
 
 ### 2. Experiência Prática II: Análise de Mercado de TI
 - **Descrição:** Uma análise de vagas de Desenvolvedor Web Júnior para identificar as competências técnicas e comportamentais mais requisitadas pelo mercado. O estudo resultou em um plano de ação para desenvolvimento de carreira.
