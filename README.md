@@ -27,6 +27,6 @@ Foco na construção de uma marca pessoal e profissional no mercado de TI, anál
 - **Experiência Prática I:** Construção de portfólio no GitHub/LinkedIn.
 - **Experiência Prática II:** Relatório de Análise de Mercado de TI.
 - **Experiência Prática III:** Estudo de Caso sobre Ética em Inteligência Artificial.
-- *(Experiência Prática IV será adicionada aqui.)*
+- **Experiência Prática IV:** Proposta de Projeto de Impacto Social "Capacita-Office Mobile".
 
 *(Esta seção será atualizada conforme novas disciplinas e projetos forem concluídos.)*
