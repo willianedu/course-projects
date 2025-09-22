@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <ctype.h> // Biblioteca para usar a função tolower()
 
-// Protótipos das funções (declarações antecipadas)
+// Protótipos das funções
 void apresentar_boas_vindas();
 void limpar_buffer();
 float calcular_imc(float peso, float altura_cm);
@@ -16,20 +16,18 @@ int main() {
     do {
         // --- ENTRADA E VALIDAÇÃO DE DADOS ---
         printf("\nDigite seu peso (em kg): ");
-        // Loop para garantir que a entrada de peso seja um número válido
         while (scanf("%f", &peso) != 1 || peso <= 0) {
             printf("Entrada inválida. Por favor, digite um número positivo para o peso: ");
-            limpar_buffer(); // Limpa a entrada incorreta (ex: "abc")
+            limpar_buffer();
         }
-        limpar_buffer(); // Limpa o '\n' deixado pelo Enter
+        limpar_buffer();
 
         printf("Digite sua altura (em cm): ");
-        // Loop para garantir que a entrada de altura seja um número válido
         while (scanf("%f", &altura_cm) != 1 || altura_cm <= 0) {
             printf("Entrada inválida. Por favor, digite um número positivo para a altura: ");
-            limpar_buffer(); // Limpa a entrada incorreta
+            limpar_buffer();
         }
-        limpar_buffer(); // Limpa o '\n'
+        limpar_buffer();
 
         // --- PROCESSAMENTO ---
         imc = calcular_imc(peso, altura_cm);
@@ -41,40 +39,46 @@ int main() {
         classificar_imc(imc);
         printf("----------------------------------\n");
 
-        printf("\nDeseja calcular novamente? (s/n): ");
-        scanf("%c", &opcao);
-        limpar_buffer();
+        // Loop para garantir que a opção seja 's' ou 'n'
+        do {
+            printf("\nDeseja calcular novamente? (s/n): ");
+            scanf("%c", &opcao);
+            limpar_buffer();
+            
+            opcao = tolower(opcao); // Converte para minúscula
 
-    } while (tolower(opcao) == 's'); // Converte a opção para minúscula para a comparação
+            if (opcao != 's' && opcao != 'n') {
+                printf("Opção inválida. Por favor, digite 's' para sim ou 'n' para não.\n");
+            }
+        } while (opcao != 's' && opcao != 'n');
+
+    } while (opcao == 's'); // O laço principal continua apenas se a opção for 's'
 
     printf("\nObrigado por usar a calculadora de IMC!\n");
 
     return 0;
 }
 
-// Função para limpar o buffer de entrada do teclado
+// Implementação das outras funções...
 void limpar_buffer() {
     int c;
     while ((c = getchar()) != '\n' && c != EOF);
 }
 
-// Função para exibir a mensagem de boas-vindas
 void apresentar_boas_vindas() {
     printf("======================================\n");
     printf(" Bem-vindo à Calculadora de IMC\n");
     printf("======================================\n");
 }
 
-// Função para calcular o IMC
 float calcular_imc(float peso, float altura_cm) {
     if (altura_cm <= 0) {
-        return 0.0; // Evita divisão por zero
+        return 0.0;
     }
     float altura_m = altura_cm / 100.0;
     return peso / (altura_m * altura_m);
 }
 
-// Função para classificar e imprimir o resultado do IMC
 void classificar_imc(float imc) {
     if (imc < 18.5) {
         printf("Abaixo do peso.\n");
