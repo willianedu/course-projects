@@ -19,14 +19,14 @@ Por exemplo, os trabalhos da disciplina de Design Profissional estão localizado
 
 ## Disciplinas e Projetos em Destaque
 
-Abaixo estão as principais disciplinas com trabalhos práticos documentados até o momento. Cada pasta de disciplina contém um `README.md` próprio com mais detalhes sobre os projetos.
+Abaixo estão as principais disciplinas com trabalhos práticos documentados até o momento. Cada pasta de disciplina contém um `README.md` próprio com mais detalhes.
 
 ### 📂 [Design Profissional](./information-technology/software-development/professional-design/)
-Foco na construção de uma marca pessoal e profissional no mercado de TI, análise de mercado, estudo de dilemas éticos em tecnologia e planejamento de carreira.
+Foco na construção de uma marca pessoal, análise de mercado, estudo de dilemas éticos em tecnologia e planejamento de carreira.
+- **Experiências Práticas:** Construção de Portfólio (LinkedIn/GitHub), Análise de Mercado de TI, Estudo de Caso sobre Ética em IA e Proposta de Projeto de Impacto Social.
 
-- **Experiência Prática I:** Construção de portfólio no GitHub/LinkedIn.
-- **Experiência Prática II:** Relatório de Análise de Mercado de TI.
-- **Experiência Prática III:** Estudo de Caso sobre Ética em Inteligência Artificial.
-- **Experiência Prática IV:** Proposta de Projeto de Impacto Social "Capacita-Office Mobile".
+### 📂 [Fundamentos da Programação](./information-technology/software-development/programming-fundamentals/)
+Estudo dos conceitos essenciais da programação, como pensamento computacional, algoritmos, lógica, estruturas de repetição, decisão, vetores, matrizes e a implementação de soluções em Linguagem C.
+- **Experiências Práticas:** Monitoramento de Preços (Pseudocódigo), Calculadora de IMC, Análise de Temperatura Mensal e Algoritmos de Ordenação (Bubble Sort em C).
 
 *(Esta seção será atualizada conforme novas disciplinas e projetos forem concluídos.)*
