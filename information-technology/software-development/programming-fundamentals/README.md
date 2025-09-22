@@ -14,14 +14,17 @@ Abaixo estão os trabalhos desenvolvidos, demonstrando a aplicação progressiva
 
 ### 2. Experiência Prática II: Calculadora de IMC (Linguagem C)
 - **Descrição:** O primeiro programa completo em Linguagem C, criando uma calculadora de Índice de Massa Corporal (IMC) interativa. O projeto utiliza laços de repetição para permitir múltiplos cálculos e estruturas de decisão para classificar o resultado.
-- **Relatório:** **[Calculadora de IMC em C](./c-imc-calculator.pdf)**
+- **Código-Fonte:** **[Ver o código em C](./imc_calculator.c)**
+- **Relatório:** **[Ver o relatório em PDF](./c-imc-calculator.pdf)**
 
 ### 3. Experiência Prática III: Análise de Temperatura Mensal (Linguagem C)
 - **Descrição:** Um programa que utiliza vetores para armazenar as temperaturas de um mês, calcula a média, a maior e a menor temperatura, e exibe um gráfico de barras visual no terminal.
-- **Relatório:** **[Análise de Temperatura Mensal em C](./c-monthly-temperature-analysis.pdf)**
+- **Código-Fonte:** **[Ver o código em C](./monthly_temperature_analysis.c)**
+- **Relatório:** **[Ver o relatório em PDF](./c-monthly-temperature-analysis.pdf)**
 
 ### 4. Experiência Prática IV: Algoritmo de Ordenação (Linguagem C)
 - **Descrição:** Implementação do algoritmo de ordenação **Bubble Sort** para organizar um vetor de dados (audiência de músicas) em ordem crescente e decrescente, com foco na explicação detalhada da lógica do algoritmo.
-- **Relatório:** **[Implementação do Bubble Sort em C](./c-bubble-sort-implementation.pdf)**
+- **Código-Fonte:** **[Ver o código em C](./bubble_sort_implementation.c)**
+- **Relatório:** **[Ver o relatório em PDF](./c-bubble-sort-implementation.pdf)**
 
 ---
